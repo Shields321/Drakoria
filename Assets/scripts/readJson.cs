@@ -50,7 +50,6 @@ public class readJson : MonoBehaviour
         {
             Debug.LogError("Cannot find the JSON file");
         }
-
     }
 
     // Update is called once per frame

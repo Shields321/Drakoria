@@ -1,8 +1,8 @@
 {
     "Name": "",
     "Level": 1,
-    "hp": 10,
-    "atk": 5,
+    "hp": 100,
+    "atk": 10,
     "skills":{
         "skill1": "",
         "skill2": "",
