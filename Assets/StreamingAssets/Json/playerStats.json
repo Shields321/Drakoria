@@ -1,0 +1,14 @@
+{
+    "Name": "",
+    "Level": 1,
+    "hp": 10,
+    "atk": 5,
+    "skills":{
+        "skill1": "",
+        "skill2": "",
+        "skill3": "",
+        "skill4": "",
+        "skill5": "",
+        "skill6": ""
+    }
+}
