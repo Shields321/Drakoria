@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 1
+  - name: Sprits
+    uniqueID: 855023737
+    locked: 0
+  - name: Background
+    uniqueID: 2747712297
     locked: 0
