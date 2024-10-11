@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\reald\\Unity projects\\Drakoria\\",
+  "WorkspaceRootPath": "G:\\Unity\\Projects\\Drakoria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\reald\\Unity projects\\Drakoria\\Assets\\scripts\\DropItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\DropItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|g:\\unity\\projects\\drakoria\\assets\\scripts\\spawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\reald\\Unity projects\\Drakoria\\Assets\\scripts\\Target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\Target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|g:\\unity\\projects\\drakoria\\assets\\scripts\\abilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\abilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\reald\\Unity projects\\Drakoria\\Assets\\scripts\\ExeAbilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\ExeAbilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|g:\\unity\\projects\\drakoria\\assets\\scripts\\exeabilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exeabilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\reald\\Unity projects\\Drakoria\\Assets\\scripts\\abilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\abilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|g:\\unity\\projects\\drakoria\\assets\\scripts\\dropitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dropitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +26,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "abilities.cs",
-              "DocumentMoniker": "C:\\Users\\reald\\Unity projects\\Drakoria\\Assets\\scripts\\abilities.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\abilities.cs",
-              "ToolTip": "C:\\Users\\reald\\Unity projects\\Drakoria\\Assets\\scripts\\abilities.cs",
-              "RelativeToolTip": "Assets\\scripts\\abilities.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T20:47:27.063Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ExeAbilities.cs",
-              "DocumentMoniker": "C:\\Users\\reald\\Unity projects\\Drakoria\\Assets\\scripts\\ExeAbilities.cs",
+              "DocumentMoniker": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\ExeAbilities.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\ExeAbilities.cs",
-              "ToolTip": "C:\\Users\\reald\\Unity projects\\Drakoria\\Assets\\scripts\\ExeAbilities.cs",
+              "ToolTip": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\ExeAbilities.cs",
               "RelativeToolTip": "Assets\\scripts\\ExeAbilities.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T20:48:04.076Z",
+              "WhenOpened": "2024-10-11T02:56:24.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Target.cs",
-              "DocumentMoniker": "C:\\Users\\reald\\Unity projects\\Drakoria\\Assets\\scripts\\Target.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\Target.cs",
-              "ToolTip": "C:\\Users\\reald\\Unity projects\\Drakoria\\Assets\\scripts\\Target.cs",
-              "RelativeToolTip": "Assets\\scripts\\Target.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Title": "abilities.cs",
+              "DocumentMoniker": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\abilities.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\abilities.cs",
+              "ToolTip": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\abilities.cs",
+              "RelativeToolTip": "Assets\\scripts\\abilities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T20:45:43.359Z",
+              "WhenOpened": "2024-10-11T02:56:19.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DropItem.cs",
+              "DocumentMoniker": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\DropItem.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\DropItem.cs",
+              "ToolTip": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\DropItem.cs",
+              "RelativeToolTip": "Assets\\scripts\\DropItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T02:54:50.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DropItem.cs",
-              "DocumentMoniker": "C:\\Users\\reald\\Unity projects\\Drakoria\\Assets\\scripts\\DropItem.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\DropItem.cs",
-              "ToolTip": "C:\\Users\\reald\\Unity projects\\Drakoria\\Assets\\scripts\\DropItem.cs*",
-              "RelativeToolTip": "Assets\\scripts\\DropItem.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
+              "Title": "Spawn.cs",
+              "DocumentMoniker": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\Spawn.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Spawn.cs",
+              "ToolTip": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\Spawn.cs",
+              "RelativeToolTip": "Assets\\scripts\\Spawn.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T20:44:37.146Z",
+              "WhenOpened": "2024-10-11T02:52:44.78Z",
               "EditorCaption": ""
             }
           ]
