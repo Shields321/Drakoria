@@ -7,11 +7,11 @@ namespace Game
     public class Target : MonoBehaviour
     {
         [SerializeField] private float health; // Health variable, serialized for Inspector    
-        [SerializeField] private float attackDamage=10f;
-        [SerializeField] private float attackRange =0.001f;  
-        [SerializeField] private float attackCooldown =2f;
+        [SerializeField] private float attackDamage;
+        [SerializeField] private float attackRange;  
+        [SerializeField] private float attackCooldown;
         private float lastTimeAtk=0f;    
-        private Player player;                     
+        private Player player;                          
 
         void Update(){
             if(player == null){
@@ -26,8 +26,24 @@ namespace Game
                 attack(attackDamage);
             }
         }
+        
+        private void attack(float dmg){
+            if(player != null){
+                if(Time.time >=attackCooldown+lastTimeAtk){
+                    Debug.Log("Target is attacking the player!");
+                    player.updateHp(-attackDamage); // Apply damage to the player
+                    lastTimeAtk = Time.time; // Reset the attack timer
+                }
+            }            
+        }
 
-        public float getHealth() { return health; }
+        private bool isInRange(){   
+            Transform playerTransform = player.getPlayerTransform();                           
+            if (Vector2.Distance(transform.position, player.transform.position) <= attackRange){
+                return true;
+            }
+            return false;
+        }
 
         public void TakeDamage(float damage){
             health -= damage; // Reduce health by the damage amount
@@ -51,29 +67,6 @@ namespace Game
 
             Debug.Log($"{gameObject.name} has been destroyed.");
             Destroy(gameObject); // Destroy the target when health is 0
-        }
-
-        private void attack(float dmg){
-            if(player != null){
-                if(Time.time >=attackCooldown+lastTimeAtk){
-                    Debug.Log("Target is attacking the player!");
-                    player.updateHp(-attackDamage); // Apply damage to the player
-                    lastTimeAtk = Time.time; // Reset the attack timer
-                }
-            }            
-        }
-
-        private bool isInRange(){   
-            Transform playerTransform = player.getPlayerTransform();                           
-            if (Vector2.Distance(transform.position, player.transform.position) <= attackRange){
-                return true;
-            }
-            return false;
-        }
-
-        // Optional: Method to reset health, useful for respawning
-        public void ResetHealth(float newHealth){
-            health = newHealth;
-        }
+        }                
     }
 }
