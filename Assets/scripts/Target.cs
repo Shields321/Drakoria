@@ -6,12 +6,30 @@ namespace Game
 {
     public class Target : MonoBehaviour
     {
-        [SerializeField] private float health; // Health variable, serialized for Inspector        
+        [SerializeField] private float health; // Health variable, serialized for Inspector    
+        [SerializeField] private float attackDamage=10f;
+        [SerializeField] private float attackRange =0.001f;  
+        [SerializeField] private float attackCooldown =2f;
+        private float lastTimeAtk=0f;    
+        private Player player;                     
+
+        void Update(){
+            if(player == null){
+                player = FindObjectOfType<Player>();  // Find the Player component
+                if (player == null) {
+                    Debug.LogError("Player not found!");
+                }
+            }
+
+            if(player != null && isInRange()){
+                //Debug.Log("Atk");
+                attack(attackDamage);
+            }
+        }
 
         public float getHealth() { return health; }
 
-        public void TakeDamage(float damage)
-        {
+        public void TakeDamage(float damage){
             health -= damage; // Reduce health by the damage amount
             if (health <= 0)
             {
@@ -23,8 +41,7 @@ namespace Game
             }
         }
 
-        private void HandleDeath()
-        {
+        private void HandleDeath(){
             // Drop item before destroying the target
             DropItem dropItemScript = GetComponent<DropItem>();
             if (dropItemScript != null)
@@ -36,10 +53,26 @@ namespace Game
             Destroy(gameObject); // Destroy the target when health is 0
         }
 
+        private void attack(float dmg){
+            if(player != null){
+                if(Time.time >=attackCooldown+lastTimeAtk){
+                    Debug.Log("Target is attacking the player!");
+                    player.updateHp(-attackDamage); // Apply damage to the player
+                    lastTimeAtk = Time.time; // Reset the attack timer
+                }
+            }            
+        }
+
+        private bool isInRange(){   
+            Transform playerTransform = player.getPlayerTransform();                           
+            if (Vector2.Distance(transform.position, player.transform.position) <= attackRange){
+                return true;
+            }
+            return false;
+        }
 
         // Optional: Method to reset health, useful for respawning
-        public void ResetHealth(float newHealth)
-        {
+        public void ResetHealth(float newHealth){
             health = newHealth;
         }
     }

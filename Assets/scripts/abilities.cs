@@ -8,46 +8,49 @@ namespace Game
     {
         [SerializeField] private GameObject target;  // Make it private but visible in the Inspector
         public Transform player;   // Reference to the player’s transform
-        private float distanceThreshold = 3f;
+        private float distanceThreshold = 5f;
+        private int level = 1;
                 
         public void DevilHat() //this is not devil hat its the aura one
         {                    
+            float[] level_scale = {5,10,15,20,25,30}; 
             SetClosestTarget();
-            float baseDamage = 10f; // Set base damage here
-            float damageMultiplierFar = 1.2f;
+            float baseDamage = 50f; // Set base damage here
+            float damageMultiplierFar = levelUpdate(level_scale,level);            
             float finalDmg = baseDamage; // Initialize final damage to base damage            
             // Calculate distance from player to target
             float distance = Vector2.Distance(player.position, target.transform.position);
 
             // Determine damage based on distance
-            if (distance < distanceThreshold)
-            {
+            if (distance < distanceThreshold){
+                damageMultiplierFar = 1.2f;
                 finalDmg *= damageMultiplierFar;  // Increase damage if farther away
-            }
-            else
-            {
-                finalDmg *= 0f; // Reduce damage if close
-            }
+            }            
 
             // Ensure the target is valid before applying damage
-            if (target != null)
-            {
+            if (target != null){
                 Target targetComponent = target.GetComponent<Target>();
-                if (targetComponent != null)
-                {
+                if (targetComponent != null){
                     targetComponent.TakeDamage(finalDmg);
                     Debug.Log(" Dealt damage: " + finalDmg);
                 }
-                else
-                {
+                else{
                     Debug.LogError("Target component not found on target GameObject.");
                 }
             }
-            else
-            {
+            else{
                 Debug.LogWarning("Target is null.");
             }
         }        
+        public float levelUpdate(float[] scale,int level){ //get a refrence to the player lvl
+        float damageMult = 0;
+            for(int i =0; i<5;i++){
+                if(level == i+1){
+                    damageMult = scale[i];  
+                }
+            }
+            return damageMult;
+        }
         public void SetClosestTarget()
         {
             // Find all targets in the scene

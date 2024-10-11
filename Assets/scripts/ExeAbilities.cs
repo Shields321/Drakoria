@@ -7,7 +7,7 @@ namespace Game
 
     public class ExeAbilities : MonoBehaviour
     {        
-        public Transform player;   // Reference to the player�s transform
+        public Transform player;
         private Abilities abilities;
         private Dictionary<string, float> abilityCooldown = new Dictionary<string, float>();
         private float timer = 0f;
@@ -37,15 +37,14 @@ namespace Game
         private void setCooldowns(){
             abilityCooldown["Aura"] = 2f; //set the ability cooldown
         }
+
         public void ExecuteAbility()
         {
             // Ensure abilities is not null before invoking the method
-            if (abilities != null)
-            {
+            if (abilities != null){
                 abilities.DevilHat();
             }
-            else
-            {
+            else{
                 Debug.LogWarning("Abilities component is not assigned.");
             }
         }
