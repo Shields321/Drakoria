@@ -7,16 +7,18 @@ namespace Game
 
     public class ExeAbilities : MonoBehaviour
     {        
-        public Transform player;   // Reference to the player’s transform
+        public Transform player;   // Reference to the playerï¿½s transform
         private Abilities abilities;
-        private float abilityCooldown = 1f;
+        private Dictionary<string, float> abilityCooldown = new Dictionary<string, float>();
         private float timer = 0f;
+
         private void Awake()
         {
             Debug.Log("Awake called");
             player = transform; // Assign the player transform to the current GameObject's transform
-                                
-            abilities = player.GetComponent<Abilities>();// Find the Abilities component attached to the player GameObject
+            setCooldowns();
+            abilities = player.GetComponent<Abilities>();// Find the Abilities component attached to the player GameObject            
+
             if (abilities == null)
             {
                 Debug.LogError("Abilities component not found on the player GameObject.");
@@ -25,14 +27,16 @@ namespace Game
 
         void Update()
         {
-            timer += Time.deltaTime;
-            if (timer >= abilityCooldown)
+            timer += Time.deltaTime;            
+            if (timer >= abilityCooldown["Aura"])
             {
                 ExecuteAbility();
                 timer = 0f;
             }
         }
-
+        private void setCooldowns(){
+            abilityCooldown["Aura"] = 2f; //set the ability cooldown
+        }
         public void ExecuteAbility()
         {
             // Ensure abilities is not null before invoking the method

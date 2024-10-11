@@ -7,7 +7,7 @@ namespace Game
     public class PlayerMovement : MonoBehaviour
     {
         public Rigidbody2D rb;  // Reference to the Rigidbody2D component
-        public float speed = 5f; // Speed of the player
+        public float speed; // Speed of the player
         public Camera mainCamera; // Reference to the main camera
         private Vector2 movement; // Movement vector for 2D
 
@@ -24,6 +24,7 @@ namespace Game
 
             // Set movement direction based on input
             movement = new Vector2(x, y).normalized;
+            
         }
 
         // FixedUpdate is called once per physics frame

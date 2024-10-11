@@ -9,15 +9,13 @@ namespace Game
         [SerializeField] private GameObject target;  // Make it private but visible in the Inspector
         public Transform player;   // Reference to the player’s transform
         private float distanceThreshold = 3f;
-
-
+                
         public void DevilHat() //this is not devil hat its the aura one
-        {
+        {                    
             SetClosestTarget();
             float baseDamage = 10f; // Set base damage here
             float damageMultiplierFar = 1.2f;
-            float finalDmg = baseDamage; // Initialize final damage to base damage
-
+            float finalDmg = baseDamage; // Initialize final damage to base damage            
             // Calculate distance from player to target
             float distance = Vector2.Distance(player.position, target.transform.position);
 
@@ -49,8 +47,7 @@ namespace Game
             {
                 Debug.LogWarning("Target is null.");
             }
-        }
-
+        }        
         public void SetClosestTarget()
         {
             // Find all targets in the scene
