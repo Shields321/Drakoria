@@ -19,6 +19,7 @@ namespace Game
             ifDead(); // Call the death check method
         }
         public float getHealth(){return health;}
+        public float getAtk() { return atk; }
         public Transform getPlayerTransform(){return player;}
         public void updateHp(float hpChange)
         {

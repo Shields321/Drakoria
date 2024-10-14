@@ -139,6 +139,7 @@ GameObject:
   - component: {fileID: 349937009}
   - component: {fileID: 349937010}
   - component: {fileID: 349937011}
+  - component: {fileID: 349937012}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -358,6 +359,22 @@ MonoBehaviour:
   health: 100
   stamina: 100
   atk: 50
+--- !u!114 &349937012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349937002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bece56dc4cb0cca4da52564e6ca56587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 7486172915142816596, guid: f4613f08a9f4c5a44bd8d839f5cbaba4, type: 3}
+  atkDisplay: {fileID: 4717582331599922243, guid: 6cbc39ac850843f4986daee4c33ef042, type: 3}
+  mainCamera: {fileID: 519420031}
+  range: 3
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

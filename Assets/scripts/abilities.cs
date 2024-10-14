@@ -15,7 +15,7 @@ namespace Game
         {                    
             float[] level_scale = {5,10,15,20,25,30}; 
             SetClosestTarget();
-            float baseDamage = 50f; // Set base damage here
+            float baseDamage = 5f; // Set base damage here
             float damageMultiplierFar = levelUpdate(level_scale,level);            
             float finalDmg = baseDamage; // Initialize final damage to base damage            
             // Calculate distance from player to target
@@ -61,10 +61,12 @@ namespace Game
             foreach (Target t in targets)
             {
                 float distance = Vector2.Distance(player.position, t.transform.position);
-                if (distance < closestDistance)
+                if (distance < closestDistance & distance < distanceThreshold)
                 {
+                    
                     closestDistance = distance;
                     closestTarget = t;
+                                        
                 }
             }
 
