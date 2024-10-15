@@ -7,19 +7,19 @@ namespace Game
     public class Abilities : MonoBehaviour
     {
         [SerializeField] private GameObject target;  // Make it private but visible in the Inspector
-        public Transform player;   // Reference to the player’s transform
+        public Transform playerTransform;   // Reference to the player’s transform        
         private float distanceThreshold = 5f;
-        private int level = 1;
+        
                 
-        public void DevilHat() //this is not devil hat its the aura one
-        {                    
+        public void auraOfProtection(Player player, int level) //this is not devil hat its the aura one
+        {                
             float[] level_scale = {5,10,15,20,25,30}; 
             SetClosestTarget();
             float baseDamage = 5f; // Set base damage here
             float damageMultiplierFar = levelUpdate(level_scale,level);            
             float finalDmg = baseDamage; // Initialize final damage to base damage            
             // Calculate distance from player to target
-            float distance = Vector2.Distance(player.position, target.transform.position);
+            float distance = Vector2.Distance(playerTransform.position, target.transform.position);
 
             // Determine damage based on distance
             if (distance < distanceThreshold){
@@ -43,7 +43,8 @@ namespace Game
             }
         }        
         public float levelUpdate(float[] scale,int level){ //get a refrence to the player lvl
-        float damageMult = 0;
+            
+            float damageMult = 0;
             for(int i =0; i<5;i++){
                 if(level == i+1){
                     damageMult = scale[i];  
@@ -60,7 +61,7 @@ namespace Game
 
             foreach (Target t in targets)
             {
-                float distance = Vector2.Distance(player.position, t.transform.position);
+                float distance = Vector2.Distance(playerTransform.position, t.transform.position);
                 if (distance < closestDistance & distance < distanceThreshold)
                 {
                     

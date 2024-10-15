@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "G:\\Unity\\Projects\\Drakoria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|g:\\unity\\projects\\drakoria\\assets\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|g:\\unity\\projects\\drakoria\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|g:\\unity\\projects\\drakoria\\assets\\scripts\\spawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|G:\\Unity\\Projects\\Drakoria\\assets\\scripts\\abilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\abilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|g:\\unity\\projects\\drakoria\\assets\\scripts\\playerbasicatkl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerbasicatkl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|G:\\Unity\\Projects\\Drakoria\\assets\\scripts\\exeabilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exeabilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|g:\\unity\\projects\\drakoria\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|G:\\Unity\\Projects\\Drakoria\\assets\\scripts\\abilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\abilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|g:\\unity\\projects\\drakoria\\assets\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|G:\\Unity\\Projects\\Drakoria\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|G:\\Unity\\Projects\\Drakoria\\assets\\scripts\\dropitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dropitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|G:\\Unity\\Projects\\Drakoria\\assets\\scripts\\spawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA925A29-5BFE-010D-187C-4F4A8734080B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +42,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Player.cs",
+              "ToolTip": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\scripts\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T18:19:08.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Target.cs",
+              "DocumentMoniker": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\Target.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Target.cs",
+              "ToolTip": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\Target.cs",
+              "RelativeToolTip": "Assets\\scripts\\Target.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T16:31:42.396Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -54,41 +88,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "PlayerBasicAtkl.cs",
+              "DocumentMoniker": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\PlayerBasicAtkl.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerBasicAtkl.cs",
+              "ToolTip": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\PlayerBasicAtkl.cs",
+              "RelativeToolTip": "Assets\\scripts\\PlayerBasicAtkl.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T17:00:12.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\PlayerMovement.cs",
               "ToolTip": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T16:33:33.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Target.cs",
-              "DocumentMoniker": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\Target.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\Target.cs",
-              "ToolTip": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\Target.cs",
-              "RelativeToolTip": "Assets\\scripts\\Target.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T16:31:42.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ExeAbilities.cs",
               "DocumentMoniker": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\ExeAbilities.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\ExeAbilities.cs",
               "ToolTip": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\ExeAbilities.cs",
               "RelativeToolTip": "Assets\\scripts\\ExeAbilities.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCEAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T02:56:24.038Z"
+              "WhenOpened": "2024-10-11T02:56:24.038Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -98,32 +133,33 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\abilities.cs",
               "ToolTip": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\abilities.cs",
               "RelativeToolTip": "Assets\\scripts\\abilities.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T02:56:19.817Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DropItem.cs",
               "DocumentMoniker": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\DropItem.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\DropItem.cs",
               "ToolTip": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\DropItem.cs",
               "RelativeToolTip": "Assets\\scripts\\DropItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T02:54:50.975Z"
+              "WhenOpened": "2024-10-11T02:54:50.975Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Spawn.cs",
               "DocumentMoniker": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\Spawn.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Spawn.cs",
               "ToolTip": "G:\\Unity\\Projects\\Drakoria\\Assets\\scripts\\Spawn.cs",
               "RelativeToolTip": "Assets\\scripts\\Spawn.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T02:52:44.78Z",
               "EditorCaption": ""

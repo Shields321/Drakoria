@@ -95,8 +95,7 @@ namespace Game
                 float distanceToTarget = Vector2.Distance(display.transform.position, target.transform.position);                
                 // Check if within damage threshold
                 if (distanceToTarget <= range)
-                {
-                    Debug.Log(distanceToTarget);
+                {                    
                     target.TakeDamage(baseDmg);  // Deal damage to the target
                     // Optionally destroy the atkDisplay after hitting or keep it for the next attack
                     // Destroy(display); // Uncomment if you want to destroy it after hitting

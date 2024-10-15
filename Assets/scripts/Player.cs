@@ -7,6 +7,7 @@ namespace Game
     public class Player : MonoBehaviour
     {
         public Transform player;
+        public int level;
         public float health;
         public float stamina;
         public float atk;
@@ -20,6 +21,7 @@ namespace Game
         }
         public float getHealth(){return health;}
         public float getAtk() { return atk; }
+        public int getLevel(){return level;}
         public Transform getPlayerTransform(){return player;}
         public void updateHp(float hpChange)
         {

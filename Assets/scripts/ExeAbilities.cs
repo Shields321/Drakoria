@@ -7,17 +7,21 @@ namespace Game
 
     public class ExeAbilities : MonoBehaviour
     {        
-        public Transform player;
+        public Transform playerTransform;
+        private Player player;
         private Abilities abilities;
         private Dictionary<string, float> abilityCooldown = new Dictionary<string, float>();
         private float timer = 0f;
+        private int level;
 
         private void Awake()
         {
             Debug.Log("Awake called");
-            player = transform; // Assign the player transform to the current GameObject's transform
+            playerTransform = transform; // Assign the player transform to the current GameObject's transform
             setCooldowns();
-            abilities = player.GetComponent<Abilities>();// Find the Abilities component attached to the player GameObject            
+            abilities = playerTransform.GetComponent<Abilities>();// Find the Abilities component attached to the player GameObject
+                                                                  
+            player = gameObject.GetComponent<Player>();            
 
             if (abilities == null)
             {
@@ -27,6 +31,7 @@ namespace Game
 
         void Update()
         {
+            level = player.getLevel();
             timer += Time.deltaTime;            
             if (timer >= abilityCooldown["Aura"])
             {
@@ -42,7 +47,7 @@ namespace Game
         {
             // Ensure abilities is not null before invoking the method
             if (abilities != null){
-                abilities.DevilHat();
+                abilities.auraOfProtection(player,level);
             }
             else{
                 Debug.LogWarning("Abilities component is not assigned.");
